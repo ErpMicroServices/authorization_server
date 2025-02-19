@@ -28,7 +28,7 @@ spring:
     activate:
       on-profile: development
   datasource:
-    url: jdbc:postgresql://localhost:5432/authorization_service-db
+    url: jdbc:postgresql://localhost:5432/authorization_service
     username: authorization_service
     password: authorization_service
 
@@ -45,7 +45,7 @@ spring:
     activate:
       on-profile: docker
   datasource:
-    url: jdbc:postgresql://authorization_service-db:5432/authorization_service-db
+    url: jdbc:postgresql://authorization_service-db:5432/authorization_service
     username: authorization_service
     password: authorization_service
 
